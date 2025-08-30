@@ -8,27 +8,27 @@
 		"Walksy"
 	],
 	"contact": {
-    "issues": "https://github.com/Walksy/ShieldStatus/issues",
-    "sources": "https://github.com/Walksy/ShieldStatus",
-    "homepage": "https://discord.com/invite/zeu7uNuBWY"
+		"issues": "https://github.com/Walksy/ShieldStatus/issues",
+		"sources": "https://github.com/Walksy/ShieldStatus",
+		"homepage": "https://discord.com/invite/zeu7uNuBWY"
 	},
 	"license": "MIT",
 	"icon": "assets/walksy/icon.png",
 	"environment": "client",
 	"entrypoints": {
 		"main": [
-      "walksy.shieldstatus.main.ShieldStatus"
+			"walksy.shieldstatus.main.ShieldStatus"
 		],
-    "modmenu": [
-      "walksy.shieldstatus.config.ModMenuIntegration"
-    ]
+		"modmenu": [
+			"walksy.shieldstatus.config.ModMenuIntegration"
+		]
 	},
 	"mixins": [
-      "shieldstatus.mixins.json"
+		"shieldstatus.mixins.json"
 	],
 	"depends": {
 		"fabricloader": "*",
-		"minecraft": "*",
+		"minecraft": "1.21.7",
 		"java": ">=17",
 		"fabric-api": "*"
 	}
